@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files - store in Google Drive instead
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.pkl
+*.pickle
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Large scientific files
+*.pdb
+*.fasta
+*.fastq
+*.bam
+*.sam
+*.vcf
+
+# Model files
+*.pt
+*.pth
+*.h5
+*.ckpt
+models/
+checkpoints/
+
+# Environment and secrets
+.env
+.envrc
+*.env
+secrets/
+credentials/
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Docker
+.dockerignore
+
+# Temporary files
+tmp/
+temp/
+*.tmp
